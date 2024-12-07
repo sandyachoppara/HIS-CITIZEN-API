@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: CITIZEN-API
+  config:
+    import: optional:configserver:http://localhost:2222
+    
+  mail:
+    host: smtp.gmail.com
+    password: 
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: 
+  
+
